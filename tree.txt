@@ -1,0 +1,16 @@
+.
+├── file_list.txt : 全部判決的JID, size = 4894 = 2269(cases_first) + 2629(cases_appeal)
+├── cases_first.txt : 第一審判決的JID, size = 2269
+├── cases_appeal.txt : 上訴判決的JID, size = 2625
+├── dataset_original : 全部判決的原始檔, size = 4892 = 4894 - 2 (missing_files.jsonl)
+├── dataset_extracted : 全部判決的擷取結果, size = 4892 = 4894 - 2 (missing_files.jsonl)
+├── logs
+│   ├── extraction
+│   │   ├── log_all.jsonl : 擷取不到pattern的JID
+│   │   ├── log_fact.jsonl : 擷取結果缺少原告主張 or 被告則以 or (法院心證 & 爭議事項)的JID
+│   │   ├── log_notation.jsonl : 裁判書有奇怪的項目符號的JID
+│   │   └── log_waiver.jsonl : 被告未到場答辯的JID
+│   └── missing
+│       └── missing_files.jsonl : 年份在2000年之前, 皆是第一審判決, size = 2
+├── description.pptx
+├── tree.txt

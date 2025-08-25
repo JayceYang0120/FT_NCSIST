@@ -402,10 +402,10 @@ def file_list():
     ### parameters for links path
 
     ### parameters for step 1.
-    output_path_list_files = "./lists/file_list.txt"
-    output_path_list_files_first_case = "./lists/cases_first.txt"
-    output_path_list_files_appeal_case = "./lists/cases_appeal.txt"
-    output_path_list_cases_wo_jid = "./lists/cases_wo_jid.txt"
+    output_path_list_files = "./lists/retire/file_list.txt"
+    output_path_list_files_first_case = "./lists/retire/cases_first.txt"
+    output_path_list_files_appeal_case = "./lists/retire/cases_appeal.txt"
+    output_path_list_cases_wo_jid = "./lists/retire/cases_wo_jid.txt"
     ### parameters for step 1.
 
     ### parameters for step 2.

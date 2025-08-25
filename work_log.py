@@ -9,4 +9,12 @@ progress:
 1. preparing
 todos:
 1. appeal
+
+114/08/25:
+plans:
+1. analysis for NCSIST
+progress:
+1. analysis for NCSIST
+todos:
+1. None
 """

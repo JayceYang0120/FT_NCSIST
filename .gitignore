@@ -1,5 +1,6 @@
 .vscode
 __pycache__
 .venv/
-dataset/
-assets/
+dataset_retire/
+assets_retire/
+temp/

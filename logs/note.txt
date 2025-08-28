@@ -1,0 +1,9 @@
+unreliable history module
+1. TCHV,92,勞再易,3,20030530,1 vs. TCDV,90,訴,1087,20010802,1
+
+definition of basis case
+1. MLDV,107,勞簡上,2,20190313,2
+    > basis in formula, but dont mention "基數"
+
+attached table
+1. KSHV,110,勞上易,70,20210914,1

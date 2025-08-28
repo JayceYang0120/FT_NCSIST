@@ -5,6 +5,9 @@ def write_output(list_output: list, output_path: str):
     """
     write output to file
     """
+    output_diretory = os.path.dirname(output_path)
+    if not os.path.exists(output_diretory):
+        os.makedirs(output_diretory)
     if not os.path.exists(output_path):
         with open(output_path, 'w', encoding = 'utf-8') as f:
             for item in list_output:
